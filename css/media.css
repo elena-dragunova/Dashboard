@@ -1,0 +1,43 @@
+
+@media (max-width: 48em) {
+    form#search {
+        display: none;
+    }
+
+    #nav-menu {
+        float: none; !important;
+    }
+
+    #nav-menu #btn-notifications > .badge {
+        right:inherit;
+        left: 10rem;
+    }
+
+    #btn-notifications,
+    #btn-notifications > button {
+        width:100%;
+        text-align: left;
+    }
+
+    #notification-list {
+        margin: 1.25rem;
+        margin-left: 2rem;
+        background-color: #e5e9ec;
+    }
+
+    #notification-list a {
+        background-color: #fff;
+        opacity:1;
+    }
+
+    .round-chart,
+    .round-chart canvas {
+        display: block;
+        margin:auto;
+    }
+
+    .round-chart + .round-chart {
+        margin-top: 2rem;
+        float: none;;
+    }
+}
